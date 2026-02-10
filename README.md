@@ -2,8 +2,8 @@
 
 ## 環境構築
 
-Dockerビルド
-・git clone　https://github.com/misaki-m11111/laravel-contact-form-test.git
+Dockerビルド  
+・git clone　https://github.com/misaki-m11111/laravel-contact-form-test.git  
 ・docker compose up -d --build
 
 ## Dockerビルド

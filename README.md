@@ -36,7 +36,13 @@
 ・Docker / Docker Compose  
 
 ## ER図  
-<img width="771" height="941" alt="contact-form-er" src="https://github.com/user-attachments/assets/3e47dbba-83db-4438-8e79-2af93d824d88" />
+<img width="771" height="941" alt="contact-form-er" src="https://github.com/user-attachments/assets/3b91c94b-4710-459a-bc69-db7c191e6376" />  
+
+※ 氏名については日本語表記に合わせ、  
+DB・画面表示ともに「姓 → 名（last_name → first_name）」の順で扱っています。  
+仕様書上の記載順（first_name → last_name）とは異なりますが、  
+意図した設計判断によるものです。  
+
 
 ## URL  
 ・お問い合わせ画面：http://localhost  

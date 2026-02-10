@@ -30,7 +30,6 @@ public function index(Request $request)
     return view('contact.index', $data);
 }
 
-
 public function confirm(ContactRequest $request)
 {
     $data = $request->only([

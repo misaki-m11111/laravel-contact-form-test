@@ -44,11 +44,17 @@
 
 /* ===== Buttons ===== */
 .confirm__button {
+  width: 120px;
+  height: 40px;
   font-size: 14px;
   border: none;
+  background-color: #82756b;
+  color: #fff;
+  cursor: pointer;
 }
 
 .confirm__button--back {
+  background-color: transparent;
   color: #82756b;
   text-decoration: underline;
 }

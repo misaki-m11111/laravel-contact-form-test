@@ -1,8 +1,8 @@
 @extends('layouts.base')
 
 @section('style')
-    <link rel="stylesheet" href="{{ asset('css/contact/thanks.css') }}">
     <link rel="stylesheet" href="{{ asset('css/contact/contact-common.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/contact/thanks.css') }}">
 @endsection
 
 @section('page')

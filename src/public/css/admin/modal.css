@@ -6,7 +6,6 @@
     z-index: 1000;
 }
 
-/* :target で表示 */
 .modal:target {
     display: block;
 }

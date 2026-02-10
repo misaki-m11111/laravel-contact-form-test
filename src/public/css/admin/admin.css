@@ -47,7 +47,7 @@
 .admin-search__row {
     display: grid;
     grid-template-columns:
-        4fr
+        4.5fr
         1fr
         minmax(240px, 2.5fr)
         1.5fr
@@ -139,6 +139,29 @@
     border: 1px solid #8b7969;
 }
 
+.admin-table th:nth-child(1),
+.admin-table td:nth-child(1),
+.admin-table th:nth-child(4),
+.admin-table td:nth-child(4) {
+    text-align: left;
+}
+
+.admin-table th:nth-child(3),
+.admin-table td:nth-child(3) {
+    text-align: left;
+    padding-left: 80px;
+}
+
+.admin-table th:nth-child(2),
+.admin-table td:nth-child(2) {
+    text-align: center;
+}
+
+.admin-table th:nth-child(5),
+.admin-table td:nth-child(5) {
+    text-align: right;
+}
+
 .admin-table th {
     background-color: #8b7969;
     color: #ffffff;
@@ -159,10 +182,12 @@
 /* ===== Detail Button ===== */
 .admin__button-detail {
     display: inline-block;
-    padding: 4px 10px;
+    min-width: 80px;
+    padding: 10px 16px;
     border: 1px solid #ccc;
     color: #c9b8a7;
     text-decoration: none;
+    text-align: center;
 }
 
 /* ===== Modal ===== */

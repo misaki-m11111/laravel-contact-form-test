@@ -165,7 +165,7 @@
                         <mxRectangle width="92" height="37" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="370" value="first_name" style="shape=partialRectangle;html=1;connectable=1;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;align=center;verticalAlign=middle;horizontal=1;fontColor=default;fontFamily=Helvetica;labelPosition=center;verticalLabelPosition=middle;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" vertex="1" parent="368">
+                <mxCell id="370" value="last_name" style="shape=partialRectangle;html=1;connectable=1;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;align=center;verticalAlign=middle;horizontal=1;fontColor=default;fontFamily=Helvetica;labelPosition=center;verticalLabelPosition=middle;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" vertex="1" parent="368">
                     <mxGeometry x="92" width="78" height="37" as="geometry">
                         <mxRectangle width="78" height="37" as="alternateBounds"/>
                     </mxGeometry>
@@ -188,7 +188,7 @@
                         <mxRectangle width="92" height="50" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="349" value="last_name" style="shape=partialRectangle;html=1;connectable=1;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;align=center;verticalAlign=middle;horizontal=1;fontColor=default;fontFamily=Helvetica;labelPosition=center;verticalLabelPosition=middle;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" vertex="1" parent="347">
+                <mxCell id="349" value="first_name" style="shape=partialRectangle;html=1;connectable=1;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;align=center;verticalAlign=middle;horizontal=1;fontColor=default;fontFamily=Helvetica;labelPosition=center;verticalLabelPosition=middle;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" vertex="1" parent="347">
                     <mxGeometry x="92" width="78" height="50" as="geometry">
                         <mxRectangle width="78" height="50" as="alternateBounds"/>
                     </mxGeometry>

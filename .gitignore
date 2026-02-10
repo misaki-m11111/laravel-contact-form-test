@@ -1,2 +1,24 @@
 # MySQL data (Docker)
 docker/mysql/data/
+
+# environment
+.env
+
+# dependencies
+/vendor
+/node_modules
+
+# laravel cache & logs
+/storage/logs
+/storage/framework/cache
+/storage/framework/sessions
+/storage/framework/views
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# docker volume data
+docker/mysql/data

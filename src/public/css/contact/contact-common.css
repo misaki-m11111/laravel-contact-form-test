@@ -1,0 +1,30 @@
+/* ===== Contact Common / Base ===== */
+.contact,
+.confirm {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 16px;
+  color: #5f554d;
+}
+
+/* ===== Contact Common / Title ===== */
+.contact__title,
+.confirm__title {
+  text-align: center;
+  font-size: 36px;
+  color: #8d7b6c;
+}
+
+/* ===== Contact Common / Primary Button ===== */
+.contact__button--confirm,
+.confirm__button--submit,
+.thanks__button.contact__button--home {
+  display: inline-block;
+  padding: 12px 40px;
+  background-color: #82756b;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,192 @@
+/* ===== Navigation ===== */
+.admin__button.admin__button--logout {
+    display: inline-block;
+    padding: 6px 16px;
+    font-size: 14px;
+    color: #c9b8a7;
+    text-decoration: none;
+    border: 1px solid #e6dcd2;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+/* ===== Utility ===== */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+/* ===== Layout ===== */
+.admin {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.admin__inner {
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.admin__title {
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 24px;
+    color: #a78a74;
+}
+
+/* ===== Search Area ===== */
+.admin-search {
+    width: 100%;
+    background-color: #ffffff;
+    margin-bottom: 24px;
+}
+
+.admin-search__row {
+    display: grid;
+    grid-template-columns:
+        4fr
+        1fr
+        minmax(240px, 2.5fr)
+        1.5fr
+        auto;
+    gap: 14px;
+}
+
+.admin-search__row input,
+.admin-search__row select {
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    border: 1px solid #d9d2cc;
+    border-radius: 2px;
+    color: #a78a74;
+}
+
+/* ===== Buttons ===== */
+.admin-search__buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    gap: 12px;
+}
+
+.admin__button {
+    height: 40px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.admin__button--search {
+    background-color: #8b7969;
+    color: #ffffff;
+}
+
+.admin__button--reset {
+    color: #c9b8a7;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ===== Pagination ===== */
+.admin-search__footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25px;
+}
+
+.admin-search__footer .pagination {
+    display: flex;
+    gap: 8px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.admin-search__footer .page-item:first-child,
+.admin-search__footer .page-item:last-child {
+    display: none;
+}
+
+.admin-search__footer .page-link {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #e0d8cf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8b7969;
+    text-decoration: none;
+    background-color: #ffffff;
+    font-size: 14px;
+}
+
+.admin-search__footer .page-item.active .page-link {
+    background-color: #8b7969;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* ===== Table ===== */
+.admin-table table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #8b7969;
+}
+
+.admin-table th {
+    background-color: #8b7969;
+    color: #ffffff;
+    padding: 12px;
+    font-weight: normal;
+}
+
+.admin-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    color: #8b7969;
+}
+
+.admin-table td:hover {
+    background-color: #f6f2ee;
+}
+
+/* ===== Detail Button ===== */
+.admin__button-detail {
+    display: inline-block;
+    padding: 4px 10px;
+    border: 1px solid #ccc;
+    color: #c9b8a7;
+    text-decoration: none;
+}
+
+/* ===== Modal ===== */
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+}
+
+.modal:target {
+    display: block;
+}
+
+.modal__overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.modal__content {
+    background-color: #ffffff;
+    width: 700px;
+    margin: 80px auto;
+    padding: 40px;
+    position: relative;
+}

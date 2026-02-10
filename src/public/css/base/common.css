@@ -1,0 +1,57 @@
+/* ===== Base ===== */
+body {
+  background-color: #ffffff;
+}
+
+/* ===== Link ===== */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ===== Form ===== */
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+/* ===== Layout ===== */
+.inner {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* ===== Header ===== */
+.header {
+  background-color: #ffffff;
+}
+
+/* ===== Header inner ===== */
+.header__inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+  border-bottom: 1px solid #e0d8cf;
+}
+
+/* ===== Logo ===== */
+.header__logo {
+  color: #8d7b6c;
+  font-size: 40px;
+}
+
+/* ===== Navigation ===== */
+.header__nav {
+  position: absolute;
+  right: 24px;
+}

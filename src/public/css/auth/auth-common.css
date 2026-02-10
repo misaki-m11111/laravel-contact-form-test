@@ -1,0 +1,57 @@
+/* ===== Base ===== */
+body {
+  background-color: #f1ece6;
+}
+
+/* ===== Auth Card ===== */
+.auth {
+  max-width: 480px;
+  margin: 60px auto;
+  padding: 40px 48px;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+/* ===== Title ===== */
+.auth__title {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 32px;
+  color: #8d7b6c;
+}
+
+/* ===== Form Layout ===== */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.form__group {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===== Label ===== */
+.form__label {
+  font-size: 13px;
+  margin-bottom: 6px;
+  color: #8d7b6c;
+}
+
+/* ===== Input ===== */
+.form__input {
+  padding: 12px;
+  font-size: 14px;
+  background-color: #f6f6f6;
+  color: #8d7b6c;
+  border: none;
+  border-radius: 4px;
+}
+
+/* ===== Error ===== */
+.form__error {
+  margin-top: 6px;
+  font-size: 12px;
+  color: #e60033;
+}

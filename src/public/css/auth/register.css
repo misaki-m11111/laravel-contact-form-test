@@ -1,0 +1,27 @@
+/* ===== Header Navigation ===== */
+.header__login {
+  display: inline-block;
+  padding: 6px 16px;
+
+  font-size: 14px;
+  color: #c9b8a7;
+  text-decoration: none;
+
+  border: 1px solid #e6dcd2;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+/* ===== Register Button ===== */
+.auth__button.auth__button--register {
+  display: block;
+  margin: 40px auto 0;
+  padding: 12px 36px;
+
+  font-size: 14px;
+  background-color: #82756b;
+  color: #ffffff;
+
+  border: none;
+  border-radius: 4px;
+}

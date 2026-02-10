@@ -1,0 +1,54 @@
+/* ===== Title ===== */
+.confirm__title {
+  margin-bottom: 36px;
+}
+
+/* ===== Confirm List (dl) ===== */
+.confirm__list {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  margin-bottom: 32px;
+  border: 1px solid #e5ded8;
+}
+
+.confirm__list dt,
+.confirm__list dd {
+  padding: 16px;
+  font-size: 14px;
+  border-bottom: 1px solid #e5ded8;
+}
+
+.confirm__list dt {
+  text-align: center;
+  background-color: #b8a99a;
+  color: #fff;
+}
+
+.confirm__list dd {
+  margin: 0;
+  background-color: #fff;
+}
+
+.confirm__list dt:last-of-type,
+.confirm__list dd:last-of-type {
+  border-bottom: none;
+}
+
+/* ===== Buttons Area ===== */
+.confirm__buttons {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 40px;
+}
+
+/* ===== Buttons ===== */
+.confirm__button {
+  font-size: 14px;
+  border: none;
+}
+
+.confirm__button--back {
+  color: #82756b;
+  text-decoration: underline;
+}

@@ -1,0 +1,76 @@
+/* ===== Modal Base ===== */
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+}
+
+/* :target で表示 */
+.modal:target {
+    display: block;
+}
+
+/* ===== Overlay ===== */
+.modal__overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+/* ===== Modal Content ===== */
+.modal__content {
+    position: relative;
+    background-color: #ffffff;
+    width: 700px;
+    max-width: 90%;
+    margin: 80px auto;
+    padding: 40px 48px;
+    border-radius: 4px;
+    z-index: 1;
+}
+
+/* ===== Close Button ===== */
+.modal__close {
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #8b7969;
+}
+
+/* ===== Detail List ===== */
+.modal__list {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    column-gap: 24px;
+    row-gap: 16px;
+    font-size: 14px;
+    color: #8b7969;
+}
+
+.modal__list dt {
+    font-weight: normal;
+}
+
+.modal__list dd {
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* ===== Footer ===== */
+.modal__footer {
+    margin-top: 40px;
+}
+
+/* ===== Delete Button ===== */
+.modal__delete {
+    display: block;
+    margin: 0 auto;
+    padding: 8px 28px;
+    background-color: #c0392b;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
